@@ -1,0 +1,46 @@
+#+INCLUDE: ../theme/style.org
+#+TITLE: Functional Programming by Example
+
+* OCaml
+
+# <a href="https://www.haskell.org"><img src="images/haskellLogo.png"/></a> 
+
+** Overview
+
+ - Strong Static Type - Type Safety
+ - Type Inference - The compiler infers the types for you, you don't need to write all the types;
+ - Curried Functions - Allows to create and functions on the fly.
+ - Strict Evaluation by default
+ - Optional Lazy Evaluation
+ - Multi Paradigm - Functional, Imperative and Object Orientated
+ - Compiled and Interpreted - It allows iteractive development and debugging.
+ - Compiles to natve code and bytecode
+ - Algebraic Data Types
+ - Pattern Matching
+
+** Installation
+Refer to : 
+ - [[https://ocaml.org/docs/install.html][Install OCaml]]
+
+
+** Toolset
+
+|                                    |                                                      |
+|------------------------------------|------------------------------------------------------|
+| ocaml 							 | 	toplevel loop / Interactive Shell|
+| ocamlrun                           | Haskell Interactive Shell/ Interpreter               |
+| ocamlc                             | bytecode batch compile                  				| 
+|ocamlopt							 | native code batch compiler
+|ocamlc.opt							 | optimized bytecode batch compiler 					|
+|ocamlopt.opt						 | optimized native code batch compiler 				|
+|ocamlmktop							 | new toplevel constructor								|
+|ocamldoc							 | Generate documentation for source files in HTML/ LaTex / man pages |
+|ocamlfind							 | Find OCaml packages installed						|
+|opam								 | Package manager for OCaml							|	
+|utop[optional]						 | Improved interactive shell							|
+
+
+See also:
+
+ - [[file:ocaml/README.html][OCaml Basics]]
+ - [[https://ocaml.org/learn/tutorials/][OCaml Tutorials]]
